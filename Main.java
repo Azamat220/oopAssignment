@@ -3,7 +3,7 @@ public class Main {
 
         //some testcases
 
-        PersonalAccount first = new PersonalAccount(1, "amir abaidullaev");
+        PersonalAccount first = new PersonalAccount(1, "anyname");
 
         System.out.println(first);
         //simple operations
@@ -15,7 +15,7 @@ public class Main {
         first.printTransactionHistory();
         System.out.println(first);
 
-        PersonalAccount second = new PersonalAccount(2, "aman nazarkulov");
+        PersonalAccount second = new PersonalAccount(2, "azamat");
 
         //try to withdraw money from empty account
         second.withdraw(100);
@@ -25,7 +25,7 @@ public class Main {
 
         second.printTransactionHistory();
 
-        PersonalAccount third = new PersonalAccount(3, "homer simpson");
+        PersonalAccount third = new PersonalAccount(3, "homer");
         //try to print a transaction history without any transactions made
         third.printTransactionHistory();
 
